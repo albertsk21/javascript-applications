@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>My Music Application</title>
+    <link rel="stylesheet" href="/styles/style.css"/>
+    <script type="module", src="./src/app.js"></script>
+</head>
+
+<body>
+
+    <div id="box">
+
+        <!--Navigation-->
+        <header>
+            <nav>
+                <img src="./images/headphones.png">
+                <a href="/">Home</a>
+                <ul>
+                    <!--All user-->
+                    <li><a href="/catalog">Catalog</a></li>
+                    <li><a href="/search">Search</a></li>
+                    
+                    <!--Only guest-->
+                    <div id = "guest">
+                        <li><a href="/login">Login</a></li>
+                        <li><a href="/register">Register</a></li>
+                    </div>
+                    <!--Only user-->
+                    <div id = "user">
+                        <li><a href="/create">Create Album</a></li>
+                        <li><a id = "logoutBtn" href="javascript:void(0);">Logout</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main-content"></main>
+
+        <!--Home Page-->
+   
+        <div class="views" style="display: none;">
+      
+
+    
+            <!--Login-->
+
+    
+            <!--Registration-->
+
+    
+            <!--Create Page-->
+            
+    
+            <!--Catalog-->
+
+    
+            <!--Edit Page-->
+
+    
+            <!--Details Page-->
+      
+    
+            <!--Search Page-->
+      
+    
+        </div>
+        <footer>
+            <div>
+                &copy;SoftUni Team 2021. All rights reserved.
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
